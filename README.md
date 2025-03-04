@@ -1,29 +1,23 @@
-# alugai
+# 🏠 AlugAí - Negocie seu aluguel
 
-This template should help get you started developing with Vue 3 in Vite.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/75d78726-c9e5-409d-b971-6326048ed0e5">
+</p>
 
-## Recommended IDE Setup
+**Feito em**:
+JavaScript, Vue.js, Faker.js, TailwindCSS
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### 🚀 Como rodar
+```bash
+git clone https://github.com/juanfvr/alugai-propriedades
+cd DesignHub
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## 🛠️ Implementações
+Faker.js para mocks de propriedades fictícias;
+Vue.js utilizando Composition API, Props, v-for v-model e Directives para filtragem de </br> 
+formulário e exibição de propriedades de forma dinâmica.
