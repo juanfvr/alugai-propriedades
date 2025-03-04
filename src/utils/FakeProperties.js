@@ -43,8 +43,3 @@ export function createProperty(id) {
     }
 }
 
-
-
-
-
-

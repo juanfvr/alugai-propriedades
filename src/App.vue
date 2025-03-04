@@ -1,7 +1,7 @@
 <script setup>
-import NavBar from '@/components/NavBar.vue';
-import Hero from '@/components/Hero.vue';
-import Properties from '@/components/Properties.vue';
+import NavBar from '@/components/Header/NavBar.vue';
+import HeroProperties from '@/components/Hero/HeroProperties.vue';
+import PropertiesSection from '@/components/CardSection/PropertiesSection.vue';
 </script>
 
 <template>
@@ -10,14 +10,16 @@ import Properties from '@/components/Properties.vue';
 </header>
 <main>
     <!-- hero -->
-    <Hero :hero-properties="5" />
-    <Properties />
+    <HeroProperties :hero-properties="5" />
+    <PropertiesSection />
 </main>
+<footer class="flex justify-center p-8 bg-secondary">
+    <div>
+        Visite meu
+        <a class="underline" href="https://github.com/juanfvr" target="_blank">GitHub</a>
+    </div> 
+</footer>
 <footer>
 
 </footer>
 </template>
-
-<style scoped>
-@import '@glidejs/glide/dist/css/glide.core.min.css';
-</style>

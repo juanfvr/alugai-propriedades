@@ -8,7 +8,7 @@ import { faBars, faUser } from '@fortawesome/free-solid-svg-icons';
 <nav v-once class="flex justify-between items-center p-2 md:p-4 select-none bg-white/50">
     <section>
         <i>
-            <img class="w-32 md:w-fit" src="../assets/icons/logo.svg" alt="">
+            <img class="w-32 md:w-fit" src="/src/assets/icons/logo.svg" alt="">
         </i>
     </section>
     <section>
